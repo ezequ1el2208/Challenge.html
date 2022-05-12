@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Logo.svg" alt="Alura" class="logo">
+        <h1>Encriptador de texto de Ezequiel Martinez</h1>
+    </header>
+    <main>
+        <section>
+            <form class="formulario">
+                <label for="mensaje"></label>
+                <input id="mensaje" class="input" required placeholder="Ingrese el texto aqui">
+                <div class="botones">
+                    <button onclick="encriptar()" type="button" class="encriptar" id="boton1">Encriptar</button>
+                    <button onclick="desencriptar()" type="button" class="desencriptar"
+                        id="boton2">Desencriptar</button>
+                </div>
+            </form>
+
+            <div class="aviso-input">
+                <img src="imagenes/bi_exclamation-circle-fill.svg" alt="exclamacion">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+        </section>
+
+        <section class="rectangulo">
+            <div>
+                <form class="formulario">
+                    <textarea type="text" class="texto-transformado" id="texto-transformado"></textarea>
+                    <button type="button" class="copiar-texto" id="copiar-texto-estilo">Copiar</button>
+                </form>
+            </div>
+        </section>
+        <section id="imagen-ocultar" class="rectangulo">
+            <div>
+                <img src="imagenes/Muneco.svg" alt="muneco" id="muneco">
+                <div class="rectangulo-texto">
+                    <p>Ningún mensaje fue encontrado</p>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="js/principal.js"></script>
+</body>
+
+</html>
