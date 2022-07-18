@@ -6,8 +6,6 @@
 
 body {
     position: relative;
-    width: 1440px;
-    height: 1024px;
     background: #F3F5FC;
 }
 
@@ -30,7 +28,6 @@ h1 {
     left: 240px;
     top: 168px;
     font-size: 32px;
-    line-height: 150%;
     background-color: #F3F5FC;
     border: none;
 }
@@ -41,9 +38,7 @@ h1 {
 
 .aviso-input {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 0px;
     position: absolute;
     width: 290px;
     height: 18px;
@@ -53,9 +48,6 @@ h1 {
 
 .botones {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     position: absolute;
     width: 680px;
     height: 67px;
@@ -65,16 +57,10 @@ h1 {
 
 .encriptar {
     padding: 24px;
-    position: static;
     width: 328px;
     height: 67px;
-    left: 0px;
-    top: 0px;
     background: #0A3871;
     border-radius: 24px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     margin: 0px 24px;
 }
 
@@ -83,25 +69,17 @@ h1 {
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
     margin: 0px 8px;
 }
 
 .desencriptar {
     padding: 24px;
-    position: static;
     width: 328px;
     height: 67px;
     left: 352px;
-    top: 0px;
     background: #D8DFE8;
     border: 1px solid #0A3871;
     border-radius: 24px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
     margin: 0px 24px;
 }
 
@@ -110,9 +88,6 @@ h1 {
     line-height: 19px;
     text-align: center;
     color: #0A3871;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
     margin: 0px 8px;
 }
 
@@ -135,9 +110,7 @@ h1 {
     top: 26px;
     border: none;
     font-size: 24px;
-    line-height: 150%;
     color: #495057;
-    resize: none;
 }
 
 #muneco {
@@ -149,10 +122,6 @@ h1 {
 }
 
 .rectangulo-texto {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     position: absolute;
     width: 336px;
     height: 122px;
