@@ -111,6 +111,7 @@ h1 {
     border: none;
     font-size: 24px;
     color: #495057;
+    resize: none;
 }
 
 #muneco {
@@ -127,30 +128,21 @@ h1 {
     height: 122px;
     left: 32px;
     top: 619px;
-}
+  }
 
 .rectangulo-texto p:first-child {
-    position: static;
     width: 336px;
     height: 58px;
-    left: 0px;
-    top: 0px;
     font-size: 24px;
     line-height: 120%;
     text-align: center;
     color: #343A40;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
     margin: 16px 0px;
 }
 
 .rectangulo-texto p:last-child {
-    position: static;
     width: 336px;
     height: 48px;
-    left: 0px;
     top: 74px;
     font-size: 16px;
     line-height: 150%;
@@ -158,15 +150,11 @@ h1 {
     color: #495057;
     flex: none;
     order: 1;
-    align-self: stretch;
-    flex-grow: 0;
     margin: 16px 0px;
 }
 
 .copiar-texto {
     box-sizing: border-box;
-    flex-direction: row;
-    align-items: flex-start;
     padding: 24px;
     position: absolute;
     width: 336px;
@@ -182,9 +170,6 @@ h1 {
     line-height: 19px;
     text-align: center;
     color: #0A3871;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
     margin: 0px 8px;
     background: #FFFFFF;
 }
