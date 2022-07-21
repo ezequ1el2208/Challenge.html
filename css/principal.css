@@ -157,3 +157,24 @@ h1 {
     font-size: 16px;
     color: #0A3871;
 }
+
+.footer{
+   position: absolute;
+   top: 1000px;
+   width: 1500px;
+}
+
+.redes_sociales{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.icono{
+    margin: 20px;
+}
+
+.parrafo{
+    width: 90%;
+    text-align: center;
+}
